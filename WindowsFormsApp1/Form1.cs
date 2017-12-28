@@ -25,11 +25,7 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Click += new EventHandler(btn_Click);
-            button2.Click += new EventHandler(btn_Click);
-            
-           
-           
-           
+            button2.Click += new EventHandler(btn_Click);  
         }
         void btn_Click(object sender, EventArgs e)
         {
