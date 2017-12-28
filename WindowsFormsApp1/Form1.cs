@@ -26,6 +26,8 @@ namespace WindowsFormsApp1
         {
             button1.Click += new EventHandler(btn_Click);
             button2.Click += new EventHandler(btn_Click);  
+            
+            
         }
         void btn_Click(object sender, EventArgs e)
         {
